@@ -1,0 +1,41 @@
+site_name: Charge Transport Modelling in Li-ion Batteries
+nav:
+    - Home: index.md
+    - Fundamentals:
+      - Li-ion batteries 101: fundamentals/fundamentals.md
+      - Continuity: fundamentals/continuity.md
+      - Fickian diffusion: fundamentals/diffusion.md
+      # - Stefan-Maxwell: fundamentals/stefan-maxwell.md
+    - Electrode: electrode/electrode.md
+    - Electrolyte: 
+      - Electrolyte: electrolyte/electrolyte.md
+      - Dilute Electrolyte: electrolyte/dilute-electrolyte.md
+      - Concentrated Electrolyte: electrolyte/concentrated-electrolyte.md
+    - Interface: 
+      - Interface: interface/interface.md
+      - Butler-Volmer: interface/butler-volmer.md
+    # - Microscale: microscale/microscale.md
+    # - Reduced Order:
+    #   - Reduced Order: reduced-order/reduced-order.md
+    #   - DFN: reduced-order/DFN.md
+    #   - SPM: reduced-order/SPM.md
+    #   - ECM: reduced-order/ECM.md
+    - Nomenclature: nomenclature.md
+theme:
+  name: material
+  logo: 'assets/logo.svg'
+  favicon: 'assets/favicon.ico'
+plugins:
+  - search
+  - bibtex:
+      bib_file: "refs.bib"
+markdown_extensions:
+  - footnotes
+  - attr_list
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
