@@ -8,7 +8,6 @@ Cycling a Li-ion battery involves transporting Li-ions from one electrode to ano
 
 A Li-ion battery consists of six main components: a positive current collector, a porous positive electrode, a separator, an electrolyte, a porous negative electrode, and a negative current collector. These are stacked together to form a battery cell. These can then be rolled into a cylindrical cell, or stacked into a prismatic cell.
 
-<!-- Image of jelly roll, cylindrical and prismatic, with labels for each component -->
 <figure markdown>
   ![Jelly roll](../assets/Stack-and-cell.svg){ width="800"}
   <figcaption>The left shows a schematic of one cell. This cells are stacked together into the "jellyroll", which can be wound up into a cylindrical cell (top right) or stacked into a prismatic cell (bottom right).</figcaption>
@@ -24,6 +23,13 @@ The **current collectors** are used to conduct the current from the electrodes t
 
 The **separator** is a material that prevents the electrodes from shorting by providing ion flow whilst preventing electron flow. These are usually made of insulating porous polymers.
 
+A more realistic render of what a porous Li-ion battery looks like is shown below. Along with a breakdown of some of the important phenomena that occur at the idfferent length scales - taken from our perspective paper [@Finegan2022-nf].
+
+<figure markdown>
+  ![Porous Li-ion battery](../assets/perspective-figure.jpeg){ width="700"}
+  <figcaption>A schematic of a porous Li-ion battery. The different length scales are shown, with the important phenomena that occur at each scale.</figcaption>
+</figure>
+
 > **Why negative and positive electrode and not anode and cathode?**
 
 > The cathode is the electrode where reduction happens (where a species gains electrons), and the anode is where oxidation happens (gives up electrons). Therefore, which electrode is the cathode and anode depends on whether the cell is being charged or discharged. The positive electrode (often referred to as cathode) always has a positive potential relative to the negative electrode (often referred to as the anode), regardless of the direction of flow of electrons. During discharge, the positive electrode is the cathode and the negative electrode is the anode - this is where the conventional names come from. We will use the terms positive and negative electrode throughout this wiki.
@@ -31,16 +37,15 @@ The **separator** is a material that prevents the electrodes from shorting by pr
 ### Charging and discharging
 
 <figure markdown>
-  ![Charging](../assets/inside-battery-zoomed-charge.png){ width="500"}
-  ![Discharging](../assets/inside-battery-zoomed-disch.png){ width="500"}
-  <figcaption>A schematic of charging and discharging in a Li-ion cell.</figcaption>
+  ![Charging](../assets/Charging.svg){ width="700"}
+  ![Discharging](../assets/Discharging.svg){ width="700"}
+  <figcaption>A schematic of the flow of charges (Li-ions and electrons) during charging and discharging the cell.</figcaption>
 </figure>
 
 During charging, an external potential is applied to the cell, driving lithium ions from the positive electrode into the negative electrode and increasing the cell potential. During discharging, the cell is connected to a load, and the cell potential is reduced as lithium ions travel from the negative electrode to the positive electrode.
 
 The open circuit potential (OCP) is the potential difference between the two electrodes when the battery is not connected to a load. Each electrode can be measured against a standard lithium metal electrode and the difference is then taken to give the OCP of the battery. The OCP is a function of the lithiation state of the electrodes, as the ability of the electrodes to oxidise/reduce changes with lithiation. The OCP is the "driving force" of the battery, which will be further explained in the [interface](../interface/interface.md) section. The ideal discharge of a battery is the difference between the OCP curves of each electrode (see ).
 
-<!-- OCP curves as one minus the other -->
 <figure markdown>
   ![OCP curves](../assets/OCP-sketch.svg){ width="500"}
   <figcaption>The OCP curves of the positive and negative electrodes, the total cell OCP and an example of a measured potential.</figcaption>

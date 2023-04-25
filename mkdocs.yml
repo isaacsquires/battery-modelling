@@ -5,7 +5,8 @@ nav:
       - Li-ion batteries 101: fundamentals/fundamentals.md
       - Continuity: fundamentals/continuity.md
       - Fickian diffusion: fundamentals/diffusion.md
-      # - Stefan-Maxwell: fundamentals/stefan-maxwell.md
+      - Stefan-Maxwell: fundamentals/stefan-maxwell.md
+      - Nernst-Planck: fundamentals/nernst-planck.md
     - Electrode: electrode/electrode.md
     - Electrolyte: 
       - Electrolyte: electrolyte/electrolyte.md
@@ -35,6 +36,8 @@ markdown_extensions:
   - md_in_html
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6

@@ -20,23 +20,23 @@ $$\frac{\partial c}{\partial t} = \nabla\cdot(D(c) \nabla c)$$
 
 It is common to write the diffusion equation as a [continuity equation](../fundamentals/continuity.md) in the form
 
-$$\frac{\partial c}{\partial t} + \nabla \cdot \mathbf{j_c} = 0, \qquad \mathbf{j_c}=-D(c)\nabla c$$
+$$\frac{\partial c}{\partial t} + \nabla \cdot \mathbf{N} = 0, \qquad \mathbf{N}=-D(c)\nabla c$$
 
-where $\mathbf{j_c}$ is the flux of lithium ions (note it is technically a flux density, but we will use the term flux for simplicity).
+where $\mathbf{N}$ is the flux of lithium ions (note it is technically a flux density, but we will use the term flux for simplicity).
 
 ## Electronic conduction
 
 The conduction of electrons in the electrode is described by Ohm's law. This is a linear relationship between the electric field and the current density
 
-$$\mathbf{j_\phi} = \sigma \mathbf{E}$$
+$$\mathbf{j} = \sigma \mathbf{E}$$
 
-where $\mathbf{j_\phi}$ is the current density, $\sigma$ is the conductivity, and $\mathbf{E}$ is the electric field. We can write this in terms of the potential $\phi$ as
+where $\mathbf{j}$ is the current density, $\sigma$ is the conductivity, and $\mathbf{E}$ is the electric field. We can write this in terms of the potential $\phi$ as
 
-$$\mathbf{j_\phi} = -\sigma \nabla \phi$$
+$$\mathbf{j} = -\sigma \nabla \phi$$
 
 We can now use the conservation of charge to write a continuity equation
 
-$$\nabla \cdot \mathbf{j_\phi} = 0, \qquad \mathbf{j_\phi} = -\sigma \nabla \phi$$
+$$\nabla \cdot \mathbf{j} = 0, \qquad \mathbf{j} = -\sigma \nabla \phi$$
 
 ## Other approaches
 
