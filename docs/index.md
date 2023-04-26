@@ -6,7 +6,7 @@ This wiki explores the modelling of charge transport in Li-ion batteries.
 
 A Li-ion battery is a device that converts between chemical energy and electrical energy through a redox reaction of lithium ions at the electrodes.
 
-You can find more information about the fundamentals of Li-ion batteries in the [fundamentals](fundamentals/fundamentals.md) section.
+You can find more information about the fundamentals of Li-ion batteries in the [fundamentals](fundamentals/li-ion-batteries.md) section.
 
 ## Charge transport in Li-ion batteries
 
