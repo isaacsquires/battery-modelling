@@ -6,7 +6,7 @@ Consider an ion in solution $A_+$ that must travel into the electrode and underg
 
 <!-- Plot of a potential energy landscape -->
 
-This process has similarities to diffusion. The ion is jumping from one site to another with and must overcome an energy barrier. Consider a case where there is no electric field, this process is purely diffusive with the rate of this process governed by an Arrhenius equation
+This process has similarities to diffusion. The ion is jumping from one site to another and must overcome an energy barrier. Consider a case where there is no electric field, this process is purely diffusive with the rate of this process governed by an Arrhenius equation
 
 $$
 \begin{aligned}
@@ -15,7 +15,7 @@ k_c = A_c \exp\left(-\frac{\Delta G_c^0}{RT}\right)
 \end{aligned}
 $$
 
-where $v_c$ is the velocity of the reaction (i.e. how many moles per second are being transferred), $c$ is the concentration of $A_+$ ions in solution, $k_c$ is the rate constant for this purely chemical process, $A$ is the pre-exponential factor and $\Delta G_c^0$ is the free energy of activation with no electric field. Now we must consder the application of an electric field. The ion must do work to overcome the electric field as well as the activation energy barrier. The total free energy of activation now has an additional electronic component
+where $v_c$ is the velocity of the reaction (i.e. how many moles per second are being transferred), $c$ is the concentration of $A_+$ ions in solution, $k_c$ is the rate constant for this purely chemical process, $A$ is the pre-exponential factor and $\Delta G_c^0$ is the free energy of activation with no electric field. Now we must consider the application of an electric field. The ion must do work to overcome the electric field as well as the activation energy barrier. The total free energy of activation now has an additional electronic component
 
 $$
 \begin{aligned}
