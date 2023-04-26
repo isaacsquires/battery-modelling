@@ -2,7 +2,7 @@ site_name: Charge Transport Modelling in Li-ion Batteries
 nav:
     - Home: index.md
     - Fundamentals:
-      - Li-ion batteries 101: fundamentals/fundamentals.md
+      - Li-ion batteries 101: fundamentals/li-ion-batteries.md
       - Continuity: fundamentals/continuity.md
       - Fickian diffusion: fundamentals/diffusion.md
       - Stefan-Maxwell: fundamentals/stefan-maxwell.md
