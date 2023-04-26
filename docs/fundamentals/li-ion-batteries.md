@@ -1,4 +1,4 @@
-# Fundamentals
+# Li-ion batteries 101
 
 ## How does a Li-ion battery work?
 
